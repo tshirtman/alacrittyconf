@@ -1,0 +1,47 @@
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+dynamic_padding = true
+decorations = "none"
+
+[scrolling]
+history = 10000
+multiplier = 2
+
+[font]
+
+normal = { family = "UbuntuMono", style = "Regular" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+
+offset = { x=0, y=-3 }
+glyph_offset = { x=0, y=-2 }
+size = 9
+
+[colors]
+
+[bell]
+animation = "EaseOut"
+duration = 1
+# color = "#220000"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+# style = { shape="Beam", blinking="Always" }
+
+[terminal]
+
+[mouse]
+hide_when_typing = true
+bindings = [
+  { mouse= "Right", mods="Control", action="Paste" },
+]
+
+[hints]
+
+[keyboard]
+
+
