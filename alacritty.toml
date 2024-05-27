@@ -1,9 +1,12 @@
+shell = "fish"
+
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
 
 [window]
 dynamic_padding = true
-decorations = "none"
+decorations = "buttonless"
+option_as_alt = "OnlyLeft"
 
 [scrolling]
 history = 10000
@@ -11,13 +14,20 @@ multiplier = 2
 
 [font]
 
-normal = { family = "UbuntuMono", style = "Regular" }
-bold = { style = "Bold" }
-italic = { style = "Italic" }
+# ubuntu
+# normal = {family = "UbuntuMono", style = "Regular"}
+# offset = {x=0, y=-3}
+# glyph_offset = {x=0, y=-2}
 
-offset = { x=0, y=-3 }
-glyph_offset = { x=0, y=-2 }
-size = 9
+# macOs
+normal = {family = "B612 Mono", style = "Regular"}
+offset = {x=0, y=-3}
+glyph_offset = {x=0, y=-2}
+
+bold = {style = "Bold"}
+italic = {style = "Italic"}
+
+size = 15
 
 [colors]
 
